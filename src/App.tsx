@@ -74,8 +74,8 @@ export default function App() {
   const [smtpConfig, setSmtpConfig] = useState<SMTPConfig>({
     host: 'smtp.gmail.com',
     port: '587',
-    user: '',
-    pass: '',
+    user: 'vantan.ktbinhduong@gmail.com',
+    pass: 'tauu hnwx dqzh ytpx',
     fromName: 'Phòng Nhân Sự'
   });
   const [pdfConfig, setPdfConfig] = useState({
